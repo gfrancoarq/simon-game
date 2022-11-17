@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="level-title">Press A Key to Start</h1>
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="btn green"></div>
+
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="mb-0 small">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        , Site Developed by
+        <a
+          href="https://gfrancoarq.github.io/personal-portfolio/"
+          target="_blank"
+          >GFrancoarq.</a
+        >
+      </p>
+      <p class="mb-0 small">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        , Original App Created By
+        <a
+          href="https://www.udemy.com/user/4b4368a3-b5c8-4529-aa65-2056ec31f37e/"
+          target="_blank"
+          >Dr. Angela Yu</a
+        >
+        in <i>The Complete Web Development Bootcamp.</i>
+      </p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
